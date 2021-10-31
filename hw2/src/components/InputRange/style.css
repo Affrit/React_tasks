@@ -1,0 +1,13 @@
+.input-range {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+input {
+  width: 200px;
+}
+
+.input-range input {
+  margin-left: 5px;
+}
