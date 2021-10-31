@@ -1,0 +1,16 @@
+.form {
+  width: 500px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.form__fields {
+  border: black 2px solid;
+  border-radius: 20px;
+}
+
+.form__title {
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+}
