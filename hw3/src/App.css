@@ -1,0 +1,15 @@
+.app-wrap {
+  min-height: 100vh;
+  background-color: cornsilk;
+}
+
+.app-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+p {
+  margin: 0;
+}
