@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+}
+
+.navbar__item {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  background-color: burlywood;
+  border: solid black;
+  border-width: 1px 5px 5px 1px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.navbar__item:hover {
+  background-color: coral;
+}
+
+.navbar__item-active {
+  border-width: 1px 1px 1px 1px;
+  background-color: coral;
+}

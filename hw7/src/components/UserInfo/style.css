@@ -1,0 +1,12 @@
+.user-logged {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-text {
+  display: block;
+  color: green;
+  font-size: 14px;
+}
