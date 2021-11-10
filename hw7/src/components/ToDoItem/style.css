@@ -1,0 +1,37 @@
+.item-wrap {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  background-color: #c5bb91;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.item__body,
+.item__body-complited {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+.item__body-complited {
+  text-decoration: black line-through;
+}
+
+.item__text {
+  padding: 10px;
+}
+
+.todo__close-btn {
+  position: absolute;
+  right: 5px;
+  top: calc(50% + 10px);
+}
+
+.check {
+  height: 20px;
+  width: 20px;
+  vertical-align: bottom;
+}
